@@ -1,0 +1,39 @@
+# =========================
+# Core data processing
+# =========================
+pandas==1.5.3
+#numpy==1.24.3
+numpy==1.23.5
+
+# =========================
+# Traditional models
+# =========================
+prophet==1.1.5
+cmdstanpy==1.2.2
+
+# =========================
+# Deep Learning (stable stack)
+# =========================
+# Local (Python 3.10): torch>=1.13 funciona; Colab (Python 3.11): usa el torch preinstalado
+torch>=1.13.1
+# lightning>=2.0 requerido por pytorch-forecasting>=1.1.0 (Python 3.11 compatible)
+# Usar 'lightning' (no 'pytorch-lightning') para evitar conflicto de LightningModule
+lightning>=2.0
+pytorch-forecasting>=1.1.0
+scikit-learn>=1.1.3
+
+# =========================
+# Visualization
+# =========================
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# =========================
+# Solar calculations
+# =========================
+pvlib==0.10.2
+
+# =========================
+# Utilities
+# =========================
+tqdm==4.66.1
