@@ -1,8 +1,8 @@
 """
 Módulo de procesamiento de datos para forecasting solar
-Autor: [Tu nombre]
+Autor: Kepa Sarasola Bengoetxea
 Fecha: Enero 2025
-Dataset: 6 plantas solares, Sep 2024 – Dic 2025
+Dataset: 5 plantas solares, Sep 2024 – Dic 2025
 """
 
 import pandas as pd
